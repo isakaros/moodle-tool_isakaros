@@ -27,7 +27,7 @@ $plugin->requires = 2018120301.04;
 $plugin->cron = 300;
 $plugin->component = 'tool_isakaros';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = 'v1.1';
+$plugin->release = 'v1.2';
  
 $plugin->dependencies = [
     'mod_forum' => ANY_VERSION,
