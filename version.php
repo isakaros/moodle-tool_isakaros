@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
  
 /**
- * @package   plugintype_pluginname
+ * @package   tool_isakaros
  * @copyright 2018, You Name <your@email.address>
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -24,12 +24,8 @@ defined('MOODLE_INTERNAL') || die();
  
 $plugin->version = 2019021200;
 $plugin->requires = 2018120301.04;
-$plugin->cron = 300;
+// $plugin->cron = 300;
 $plugin->component = 'tool_isakaros';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = 'v1.2';
  
-$plugin->dependencies = [
-    'mod_forum' => ANY_VERSION,
-    'mod_data' => TODO
-];
